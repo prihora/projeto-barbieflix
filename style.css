@@ -1,0 +1,87 @@
+body {
+    font-family: "Roboto mono", monospace;
+    text-align: center;
+    background-image: url("https://i.postimg.cc/C1CFy93Y/0JlS92.jpg");
+    background-color: #000000;
+    background-size: cover ;
+    background-position: center top;
+    background-repeat: no-repeat;
+  }
+  
+  
+  img:hover{
+    transform: scale(1.1);
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+    justify-content: space-between;
+  }
+  
+  @media(max-width: 768px){
+    .container{
+      justify-content: space-between;  
+    }
+   
+  }
+  
+  
+  .container_todosFilmes{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+     
+  }
+  
+  @media (max-width: 768px){
+    .container_todosFilmes{
+      padding: 0px;
+      margin-right: 50px;
+      text-align: center;
+      justify-content: space-between;
+         
+    }
+  }
+  
+  .container_filme{
+     padding: 2%;
+     max-width: 38%; 
+   
+  }
+  
+  @media (max-width: 768px){
+    .container_filme{
+      display: grid; 
+      justify-content: space-between;
+    }
+  }
+  
+  .page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+  }
+  
+  .page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+  }
+  
+  
+  
+  body > img {
+    margin: 0 10px;
+  }
+  
+  img {
+    max-height: 250px;
+  }
+  
+  p{
+    color: white;
+  }
+  
+  a{
+    text-decoration: underline;
+    color: white;
+  }
